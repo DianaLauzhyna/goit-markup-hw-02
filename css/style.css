@@ -37,7 +37,6 @@ li {
   list-style-type: none;
 }
 
-ul.link-nav li a.current,
 ul.link-nav li a.current {
   color: var(--link-color);
 }
@@ -51,7 +50,8 @@ ul.link-nav li a.current {
 }
 
 .link-nav-studio:hover,
-.link-nav-portfolio:hover {
+.link-nav-portfolio:hover,
+.link-nav-contacts:hover {
   color: var(--link-color);
 }
 
