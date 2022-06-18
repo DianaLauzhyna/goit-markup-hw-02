@@ -28,7 +28,7 @@ body {
 }
 
 .logo-one {
-  color: #2196f3;
+  color: var(--link-color);
 }
 .logo-two {
   color: #000000;
@@ -36,17 +36,12 @@ body {
 
 /*navigation*/
 
-/*.link-nav,
-.contact-inf,
-.logo {
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-}*/
+li {
+  list-style-type: none;
+}
 
 .link-nav,
 .contact-inf {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +53,6 @@ body {
 .link-nav-contacts:hover {
   -webkit-text-stroke: 1px var(--title-color);
   color: var(--link-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .link-nav-portfolio,
@@ -71,7 +65,6 @@ body {
 .mail,
 .number {
   text-decoration: none;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -84,12 +77,11 @@ body {
 }
 
 /*fist section*/
-/*.main-page-section-one {
-    background-color: #2F303A;
-}*/
+.main-page-section-one {
+  background-color: #2f303a;
+}
 
 .section-one-main-title {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,16 +89,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-color);
-  position: absolute;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px var(--title-color);
 }
 
 .button-service {
   background: var(--link-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -114,6 +101,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;*/
+  font-family: inherit;
   letter-spacing: 0.06em;
   color: var(--main-color);
   border: 0;
@@ -134,7 +122,6 @@ h2 {
 .section-two-title-two,
 .section-two-title-three,
 .section-two-title-four {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -147,7 +134,6 @@ h2 {
 .section-two-text-two,
 .section-two-text-three,
 .section-two-text-four {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -155,7 +141,6 @@ h2 {
 }
 
 .section-three-main-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -164,15 +149,18 @@ h2 {
   color: var(--title-color);
 }
 
+.main-page-section-four {
+  background-color: #f5f4fa;
+}
+
 .section-four-team-name-one,
 .section-four-team-name-two,
 .section-four-team-name-three,
 .section-four-team-name-four {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
- /* text-align: center;*/
+  /* text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
@@ -181,17 +169,16 @@ h2 {
 .section-four-text-two,
 .section-four-text-three,
 .section-four-text-four {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.187;
- /* text-align: center;*/
+  /* text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
-/*.info-block {
-    background-color: #2F303A;
-}*/
+.info-block {
+  background-color: #2f303a;
+}
 
 /*logo*/
 .logo-last {
@@ -213,15 +200,13 @@ h2 {
 .mail-two,
 .number-two {
   text-decoration: none;
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--main-color);
 }
 
 .info-address {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -237,7 +222,6 @@ h2 {
 .button-marketing {
   background: #f5f4fa;
   border-radius: 4px;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -245,6 +229,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--title-color);
   border: 0;
+  font-family: inherit;
 }
 .button-all:hover,
 .button-site:hover,
@@ -260,16 +245,15 @@ h2 {
   color: var(--main-color);
 }
 
-.Project-one,
-.Project-two,
-.Project-three,
-.Project-four,
-.Project-five,
-.Project-six,
-.Project-seven,
-.Project-eight,
-.Project-nine {
-  font-family: "Roboto";
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five,
+.project-six,
+.project-seven,
+.project-eight,
+.project-nine {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -277,16 +261,15 @@ h2 {
   color: var(--title-color);
 }
 
-.Project-one-text,
-.Project-two-text,
-.Project-three-text,
-.Project-four-text,
-.Project-five-text,
-.Project-six-text,
-.Project-seven-text,
-.Project-eight-text,
-.Project-nine-text {
-  font-family: "Roboto";
+.project-one-text,
+.project-two-text,
+.project-three-text,
+.project-four-text,
+.project-five-text,
+.project-six-text,
+.project-seven-text,
+.project-eight-text,
+.project-nine-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
