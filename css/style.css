@@ -208,7 +208,8 @@ h2 {
   font-style: normal;
 }
 .mail-two:hover,
-.number-two:hover {
+.number-two:hover,
+.info-address:hover {
   color: var(--link-color);
 }
 
