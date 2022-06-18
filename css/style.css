@@ -13,9 +13,6 @@ body {
 }
 
 /*header*/
-/*.page-header {
-    background-color: var(--main-color);
-}*/
 
 /*logo*/
 .logo {
@@ -40,6 +37,11 @@ li {
   list-style-type: none;
 }
 
+ul.link-nav li a.current,
+ul.link-nav li a.current {
+  color: var(--link-color);
+}
+
 .link-nav,
 .contact-inf {
   font-weight: 500;
@@ -49,9 +51,7 @@ li {
 }
 
 .link-nav-studio:hover,
-.link-nav-portfolio:hover,
-.link-nav-contacts:hover {
-  -webkit-text-stroke: 1px var(--title-color);
+.link-nav-portfolio:hover {
   color: var(--link-color);
 }
 
@@ -85,7 +85,6 @@ li {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /*text-align: center;*/
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-color);
@@ -97,10 +96,6 @@ li {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  /*display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;*/
   font-family: inherit;
   letter-spacing: 0.06em;
   color: var(--main-color);
@@ -144,7 +139,6 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
@@ -160,7 +154,6 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
-  /* text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
@@ -171,7 +164,6 @@ h2 {
 .section-four-text-four {
   font-size: 16px;
   line-height: 1.187;
-  /* text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -204,13 +196,20 @@ h2 {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  font-style: normal;
 }
 
 .info-address {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  font-style: normal;
+}
+.mail-two:hover,
+.number-two:hover {
+  color: var(--link-color);
 }
 
 /*PORTFOLIO*/
@@ -225,7 +224,6 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--title-color);
   border: 0;
@@ -241,7 +239,7 @@ h2 {
 .button-app:focus,
 .button-design:focus,
 .button-marketing:focus {
-  background: #2196f3;
+  background: var(--link-color);
   color: var(--main-color);
 }
 
