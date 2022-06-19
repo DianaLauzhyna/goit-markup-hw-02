@@ -135,7 +135,8 @@ h2 {
   color: var(--text-color);
 }
 
-.section-three-main-title {
+.section-three-main-title,
+.section-four-main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
